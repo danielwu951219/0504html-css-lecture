@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+header {
+  border:5px red solid;
+}
+
+nav {
+  border: 5px green solid;
+  width: 29%;
+  float: left;
+}
+
+main {
+  border: 5px orange solid;
+  clear: both;
+  width: 69%;
+  display:inline-block;
+}
+#section1 {
+  border: 5px blue solid;
+}
+
+#section2 {
+  border: 5px blue solid;
+  height:320px;
+}
+
+#section3 {
+  border: 5px blue solid;
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer {
+  border: 5px yellow solid;
+}
+nav>ul li {
+  float:left;
+  margin: 15px;
+}

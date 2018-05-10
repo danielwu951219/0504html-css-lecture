@@ -1,0 +1,64 @@
+﻿簡單介紹網頁架構，html與css是檔案，放在資料夾(根目錄)成為一個網站。
+簡單練習用記事本寫一點html，等大家熟悉後再轉換到atom
+請大家下載atom package:html preview+emmet
+emmet cheat sheet:https://docs.emmet.io/cheat-sheet/
+atom-html-preview:https://atom.io/packages/atom-html-preview
+html註解的寫法 <!--註解內容--> atom快速鍵 :ctrl+/
+
+--------------------------------------------------------------
+CSS 選擇器
+.class 選擇class用.
+#id    選擇id用#
+p      選擇元素直接用元素名
+div,p  同時選擇兩種東西，用逗號分隔
+
+
+div>p  選擇父元素為div的p
+例
+<div>
+<p>P是元素,div是其父元素</p>
+</div>
+
+<div>
+<span><p>這時候p是span的子元素，而span是div的子元素，所以p是div的孫元素</p></span>
+</div>
+
+div+p  選擇接在<div>...</div>後面的P元素
+例
+<div>元素內容</div>
+<p>接在div後面的p元素</p>
+
+p::after  在p元素後面插入
+--------------------------------------------------------------------
+路徑
+「.」是代表目前所在目錄
+「..」是代表上層目錄，若目前已經是根目錄則依然為目前所在目錄
+「/」在各個目錄名稱之間的分隔符號，若放置在路徑之前則代表根目錄
+
+根目錄是C槽:/Users/Daniel/Desktop/0503html-css-course/asset/htmlncss.png
+---------------------------------------------------------------------
+src href 的差別??
+src後面接文件路徑
+href後間接連結(url)
+url是伺服器或者文件的路徑，例如ip或網址
+--------------------------------------------------------------------
+em px的差別?
+em
+em是相對長度單位。相對於當前對象內文本的字體尺寸。如當前對行內文本的字體尺寸未被人為設置，則相對於瀏覽器的默認字體尺寸。
+1. em的值並不是固定的；
+2. em會繼承父級元素的字體大小。
+px 是像素
+瀏覽器的預設字體都是16px 1em = 16px
+
+css單位 影片教學:(https://youtu.be/qrduUUdxBSY)
+------------------------------------------------------------------
+引入css
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <style> @import "css/main.css";</style>
+
+-------------------------------------------------------------------
+版面配置
+推薦網站:(http://zh-tw.learnlayout.com/toc.html)
+---------------------------------------------------------------------
+教材:
+https://www.dropbox.com/sh/nb220zkrjh9asqw/AACGQyPVYuQdF4UnbOvu9LZta?dl=0
